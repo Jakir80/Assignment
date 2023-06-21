@@ -1,47 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 
-// const Service = () => {
-//   return (
-//     <div className="bg-[#e9f4ff] service flex justify-center">
-//       <div className="grid grid-cols-2 gap-6 container mx-auto mt-10 p-4">
-//        <div className="bg-[#edffec] hover:bg-slate-100 duration-300">
-
-//        <div className="w-1/2 flex items-center justify-center  "> 
-
-//        <img src="Loan.webp" alt="" />
-
-//        <div>
-//         hello
-//        </div>
-
-//         </div>
-
-//        </div>
-//       <div className="bg-[#edffec] hover:bg-slate-100 duration-300">
-//       <div className="w-1/2 flex items-center justify-center  ">
-//           <img src="BNPL.webp" alt="" />
-//           <div>hello</div>
-//         </div>
-//       </div>
-
-//       <div className="bg-[#edffec] hover:bg-slate-100 duration-300">
-//       <div className="w-1/2  flex items-center justify-center   ">
-//           <img src="CC.webp" alt="" />
-//           <div>hello</div>
-//         </div>
-//       </div>
-//        <div className="bg-[#edffec] hover:bg-slate-100 duration-300">
-//        <div className="w-1/2  flex items-center justify-center  ">
-//           <img src="AccountSave.webp" alt="" />
-//           <div>hello</div>
-//         </div>
-//        </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Service;
 
 const Service = () => {
     return (
@@ -56,10 +14,10 @@ const Service = () => {
                     <div className="bg-[#edffec]  hover:bg-slate-100 duration-300 relative">
                         <div className=" m-auto flex items-center justify-center overflow-hidden">
                             <div>
-                                <img
+                                <Image width={500} height={500} 
                                     className="transform hover:scale-110 transition-transform duration-300"
-                                    src="Loan.webp"
-                                    alt=""
+                                    src="/Loan.webp"
+                                    alt=''
                                 />
                             </div>
 
@@ -73,10 +31,10 @@ const Service = () => {
                     <div className="bg-[#fff1ca] hover:bg-slate-100 duration-300 relative">
                         <div className="m-auto flex items-center justify-center overflow-hidden">
                             <div>
-                                <img
+                                <Image width={500} height={500} 
                                     className="transform hover:scale-110 transition-transform duration-300"
-                                    src="BNPL.webp"
-                                    alt=""
+                                    src="/BNPL.webp"
+                                    alt=''
                                 />
                             </div>
                             <div>
@@ -90,10 +48,10 @@ const Service = () => {
                     <div className="bg-[#ffeee7] hover:bg-slate-100 duration-300 relative">
                         <div className="m-auto flex items-center justify-center overflow-hidden">
                             <div>
-                                <img
+                                <Image width={500} height={500} 
                                     className="transform hover:scale-110 transition-transform duration-300"
-                                    src="CC.webp"
-                                    alt=""
+                                    src="/CC.webp"
+                                    alt=''
                                 />
                             </div>
                             <div>
@@ -107,10 +65,10 @@ const Service = () => {
                     <div className="bg-[#fff5e7] hover:bg-slate-100 duration-300 relative">
                         <div className="m-auto flex items-center justify-center overflow-hidden">
                             <div>
-                                <img
+                                <Image width={500} height={500} 
                                     className="transform hover:scale-110 transition-transform duration-300"
-                                    src="AccountSave.webp"
-                                    alt=""
+                                    src="/AccountSave.webp"
+                                    alt=''
                                 />
                             </div>
                             <div>

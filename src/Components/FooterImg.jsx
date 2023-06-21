@@ -1,11 +1,12 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 
-const FooterImg = () => {
+
+const FooterImage = () => {
     return (
         <div className="mb-5 mt-5">
-            <img src="image.webp" alt="" />
+            <Image width={500} height={500} src="/image.webp" alt='' />
         </div>
     );
 };
 
-export default FooterImg;
+export default FooterImage;

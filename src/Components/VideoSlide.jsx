@@ -1,5 +1,5 @@
 
-/* eslint-disable @next/next/no-img-element */
+
 'use client'
 import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';

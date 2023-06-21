@@ -1,4 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
+
 
 const Featured = () => {
     return (
@@ -6,19 +7,19 @@ const Featured = () => {
             <h1 className=" font-bold text-4xl mb-10 container">get Featured</h1>
             <div className='flex justify-around gap-3 container m-auto mb-5'>
               <div>
-              <img src="one.webp" alt="" />
+              <Image width={250} height={250}  src="/one.webp" alt='' />
               </div>
               <div>
-              <img src="two.webp" alt="" />
+              <Image  width={250} height={250}   src="/two.webp" alt='' />
               </div>
               <div>
-              <img src="three.webp" alt="" />
+              <Image width={250} height={250}  src="/three.webp" alt='' />
               </div>
               <div>
-              <img src="four.webp" alt="" />
+              <Image width={250} height={250}  src="/four.webp" alt='' />
               </div>
               <div>
-              <img src="five.webp" alt="" />
+              <Image width={250} height={250}   src="/five.webp" alt='' />
               </div>
             </div>
             

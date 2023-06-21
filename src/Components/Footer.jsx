@@ -1,12 +1,12 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div
       className="bg-cover bg-center bg-fixed pb-60 "
-      style={{ backgroundImage: 'url("AboutUs.webp")' }}
+      style={{ backgroundImage: 'url("/AboutUs.webp")' }}
     >
-      <div className="container text-white m-auto">  <img className="w-24 h-24" src="logo.svg" alt="" /></div>
+      <div className="container text-white m-auto">  <Image className="w-24 h-24" width={500} height={500}  src="/logo.svg" alt='' /></div>
       <hr className="container m-auto mb-4 mt-4" />
     <div className="flex justify-between container m-auto text-white">
       <div>

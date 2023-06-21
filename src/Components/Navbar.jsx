@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 
 const navLinks = [
@@ -27,7 +27,7 @@ const navLinks = [
 const Navbar = () => {
     return (
         <div className="flex justify-between m-5">
-            <img className="w-24 h-24" src="zet_new_logo.7adcc993.svg" alt="" />
+          <Image src="/headerlogo.svg" alt="Logo" width={200} height={100} />
             <ul className="flex items-center justify-center m-5">
                 {
                     navLinks.map(({ path, title }) => (<li className="mx-2 text-blue-800" key={path}>

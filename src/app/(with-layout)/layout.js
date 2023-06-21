@@ -15,7 +15,7 @@ const WithLayout = ({ children }) => {
             <Shape></Shape>
             <ChoiceUse></ChoiceUse>
                 
-          {/* <VideoSlide></VideoSlide> */}
+         
             {children}
         
         </div>
